@@ -5,11 +5,10 @@ const {
 } = require('gulp');
 
 module.exports = function watching() {
-  watch('src/**/*.html', parallel('html'));
+  watch('src/**/*.jade', parallel('jade'));
   watch('src/**/*.php', parallel('php'));
   watch('src/**/*.scss', parallel('style'));
   watch('src/**/*.js', parallel('dev_js'));
-  watch('src/**/*.json', parallel('html'));
   watch('src/img/**/*.+(svg|ico)', parallel('rastr'));
   watch('src/img/**/*.+(png|jpg|jpeg|gif)', series('rastr', 'webp'));
   watch('src/svg/css/**/*.svg', series('svg_css', 'style'));
