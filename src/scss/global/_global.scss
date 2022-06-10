@@ -49,6 +49,7 @@ body {
 }
 
 body {
+	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
 }
 
@@ -64,3 +65,42 @@ h5,
 h6 {
 	margin: 0;
 }
+
+.title {
+	font-weight: bold;
+	font-size: $font-title;
+	line-height: $line-height-title;
+}
+
+.underTitle {
+	font-size: $font-title;
+	line-height: $line-height-title;	
+}
+
+.section {
+	position: relative;
+	padding: $section-padding-top-bottom 0;
+}
+
+.text {
+	opacity: 0.6;
+    font-size: $font-text;
+    line-height: $line-height-text;
+}
+
+/* Custom styles */
+
+.form {
+	max-width: 458px;
+	margin: auto;
+	
+	input {
+		margin: 10px;
+	}
+}
+
+.btn {
+	text-transform: uppercase;
+}
+
+/* Custom styles */
