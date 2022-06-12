@@ -1,7 +1,52 @@
 .mainSection {
+    padding-top: 100px;
+    min-height: 600px;
+
+    .form {
+        position: relative;
+        z-index: 3;
+    }
+
+    .video-container{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+    }
+      
+    iframe {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
     .mainTitle {
-        font-size: 50px;
-        line-height: 64px;
+        font-weight: bold;
+        font-size: 120px;
+        line-height: 130px;
+        border: 1px solid $white-color;
+        padding-bottom: 40px;
         margin-bottom: 20px;
     }
+
+    .underTitle {
+        padding-bottom: 40px;
+    }
+
+    // .mainSectionBG {
+    //     background: url('../img/main/pexels-valentin-onu-5844067.jpg');
+    //     background-repeat: no-repeat;
+    //     position: absolute;
+    //     content: '';
+    //     top: 0;
+    //     left: 0;
+    //     right: 0;
+    //     bottom: 0;
+    //     opacity: 0.2;
+    //     z-index: 0;
+    // }
 }

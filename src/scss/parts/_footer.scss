@@ -1,11 +1,8 @@
 .footer {
     background: $main-color;
     
-    .price, .currency {
+    .price {
         margin: 20px 0;
-    }
-
-    .currency {
         font-weight: bold;
-    }
+    }   
 }

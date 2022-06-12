@@ -2,28 +2,21 @@ header.header
     .container
         nav.navbar.navbar-expand-lg.navbar-light
             .container-fluid
-                a.navbar-brand(href='#') Navbar
+                a.navbar-brand(href='/')
+                    img(src='img/logo.svg').logo
                 button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarSupportedContent.collapse.navbar-collapse
                     ul.navbar-nav.me-auto.mb-2.mb-lg-0
                             li.nav-item
-                                a.nav-link.active(aria-current='page' href='#') Home
+                                a.nav-link.active(aria-current='page' href='#') Переваги
                             li.nav-item
-                                a.nav-link(href='#') Link
-                            li.nav-item.dropdown
-                                a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false')
-                                    | Dropdown
-                                ul.dropdown-menu(aria-labelledby='navbarDropdown')
-                                    li
-                                        a.dropdown-item(href='#') Action
-                                    li
-                                        a.dropdown-item(href='#') Another action
-                                    li
-                                        hr.dropdown-divider
-                                    li
-                                        a.dropdown-item(href='#') Something else here
+                                a.nav-link(href='#') План подорожі
                             li.nav-item
-                                a.nav-link.disabled(href='#' tabindex='-1' aria-disabled='true') Disabled
-                    form.d-flex
+                                a.nav-link(href='#') Вартість
+                            li.nav-item
+                                a.nav-link(href='tel:+380504629032') (050) 462 90 32
+                            li.nav-item
+                                a.nav-link(href='tel:+30673400115') (067) 340 01 15
+                    form.d-flex.mt-20
                             button.btn.btn-danger(type='button') Записатися на тур

@@ -49,7 +49,6 @@ body {
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
 }
 
@@ -67,14 +66,15 @@ h6 {
 }
 
 .title {
+	text-transform: uppercase;
 	font-weight: bold;
 	font-size: $font-title;
 	line-height: $line-height-title;
 }
 
 .underTitle {
-	font-size: $font-title;
-	line-height: $line-height-title;	
+	font-size: $font-text;
+	line-height: $line-height-text;	
 }
 
 .section {
@@ -83,24 +83,16 @@ h6 {
 }
 
 .text {
+	margin: 10px 0;
 	opacity: 0.6;
     font-size: $font-text;
     line-height: $line-height-text;
 }
 
-/* Custom styles */
-
-.form {
-	max-width: 458px;
-	margin: auto;
-	
-	input {
-		margin: 10px;
-	}
+.mt-20 {
+	margin-top: 20px;
 }
 
-.btn {
-	text-transform: uppercase;
+.pb-40 {
+	padding-bottom: 40px;
 }
-
-/* Custom styles */
